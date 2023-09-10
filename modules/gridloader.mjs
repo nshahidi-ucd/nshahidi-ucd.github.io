@@ -1,4 +1,4 @@
-import {def as _def} from './mdoules/utilMod.mjs';
+import {def as _def} from './modules/utilMod.mjs';
 
 (function(){
     var tho = {},
