@@ -1,5 +1,5 @@
 import {def as _def, ref as _ref} from './utilMod.mjs';
-export let[Grids]=[{}];
+export var[Grids]=[{}];
 
 (function(){
     var tho = {},
