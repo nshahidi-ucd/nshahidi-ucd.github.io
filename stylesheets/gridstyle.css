@@ -1,0 +1,32 @@
+.fg-main{
+    height:100px;
+    width:100px;
+}
+.grid {
+    height:100%;
+    width:100%;
+    border:2px solid;
+}
+.grid-row {
+    height:10%;
+    display:flex;
+    box-sizing: border-box;
+}
+.grid-row:not([name="Juliet"]){
+    border-bottom:1px solid gray;
+}
+.grid-space{
+    height:100%;
+    width:10%;
+    box-sizing: inherit;
+    display: inherit;
+}
+.grid-space:not([name^="J"]){
+    border-left:1px solid gray;
+}
+.gs-main{
+    height:100%;
+    width:100%;
+    display:initial;
+
+}
