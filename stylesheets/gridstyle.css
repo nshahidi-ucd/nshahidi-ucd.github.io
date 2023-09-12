@@ -22,7 +22,7 @@
     display: inherit;
 }
 .grid-space:not([name^="J"]){
-    border-left:1px solid gray;
+    border-right:1px solid gray;
 }
 .gs-main{
     height:100%;
