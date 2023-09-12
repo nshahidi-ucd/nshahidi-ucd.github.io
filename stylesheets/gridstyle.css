@@ -37,7 +37,7 @@
     width:100%;
     content:'💥';
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
+    font-size:larger;
     font-weight:bold;
     text-align:center;
     background-color:lightcoral;
@@ -47,7 +47,7 @@
     width:100%;
     content:'💠';
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
+    font-size: larger;
     font-weight:bold;
     text-align:center;
     background-color:lightskyblue;
