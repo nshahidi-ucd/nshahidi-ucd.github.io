@@ -28,5 +28,27 @@
     height:100%;
     width:100%;
     display:initial;
-
+}
+.gs-main[data-targetresult="none"]::after{
+    display:none;
+}
+.gs-main[data-targetresult="hit"]::after{
+    height:100%;
+    width:100%;
+    content:'💥';
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-weight:bold;
+    text-align:center;
+    background-color:lightcoral;
+}
+.gs-main[data-targetresult="miss"]::after{
+    height:100%;
+    width:100%;
+    content:'💠';
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-weight:bold;
+    text-align:center;
+    background-color:lightskyblue;
 }
